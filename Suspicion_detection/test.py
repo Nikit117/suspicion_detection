@@ -29,8 +29,8 @@ def listToString(s):
     return float_string
 
 def send_msg(text):
-    token = "5415863189:AAFwrdyi9tWLbfVvgVSXMtR6l9rVCq3iEa8"
-    chat_id = "1106376934"
+    token = "5500588613:AAH5XwGTh3YCJgJhZDnxTjYDKR-ct9AhFro"
+    chat_id = "-775064526"
     url_req = "https://api.telegram.org/bot" + token + "/sendMessage" +"?chat_id=" + chat_id + "&text=" + text
     results = requests.get(url_req)
 
